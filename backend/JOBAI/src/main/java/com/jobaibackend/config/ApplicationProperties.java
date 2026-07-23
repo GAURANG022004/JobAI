@@ -9,6 +9,7 @@ public record ApplicationProperties(Storage storage) {
             String knowledgePath,
             String generatedPath,
             String templatesPath,
-            String logsPath
+            String logsPath,
+            String uploadsPath
     ) {}
 }
